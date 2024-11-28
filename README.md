@@ -73,6 +73,11 @@ A Python-based application designed to manage employee data for a company or org
 ## Employee Class 👩‍💼👨‍💼
 
 The `Employee` class contains basic **set** and **get** operations to update its attributes and also includes validation for input fields.
+The functino setEmail() checks that the given email is valid by finding the `@` inside it or it will let the user to enter new email address
+
+## Exception Handling 👁️
+
+each function has a global exception to print the message of the error and the program continue normally
 
 ## Technologies Used 🛠️
 
